@@ -1,6 +1,7 @@
 <html>
   <head><title>Select colour page</title></head>
     <body>
+      <?php//setcookie('selqty', $_POST['selqty']); ?>
       <?php session_start();?>
       <?php $_SESSION["selqty"] = $_POST["selqty"];?>
       <?php $_SESSION["selsize"] = $_POST["selsize"];?>

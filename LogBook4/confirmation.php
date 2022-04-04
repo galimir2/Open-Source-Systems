@@ -3,6 +3,19 @@ session_start();
    echo "<h2> Your order qty is {$_SESSION["selqty"]} </h2></br>";
    echo "<h2> and the selected colour is {$_POST["selcolour"]}.</h2>";
    
+   //Hidden field code
+   //if(isset($_POST['selqty']) && isset($_POST['selcolour'])){
+   //$qty = $_POST['selqty'];
+   //&colour = $_POST['selcolour'];   
+   //}
+
+   //Cookie code
+   //if(isset($_COOKIE['selqty']) && isset($_POST['selcolour'])){
+   //$qty = $_COOKIE['selqty'];
+   //&colour = $_POST['selcolour'];   
+   //}
+
+
    if($_POST)
    {
       $selqty = $_SESSION["selqty"];
