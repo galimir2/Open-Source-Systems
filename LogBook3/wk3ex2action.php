@@ -12,8 +12,12 @@
   {
       echo "Your gender is male<br/>";
   }
+  elseif($_POST["txtgender"] =="female")
+  {
+    echo "Your gender is female<br/>";
+  }
   else
   {
-      echo "Your gender is female<br/>";
+      echo "Your gender is not specified<br/>";
   }
 ?>
