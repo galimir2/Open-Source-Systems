@@ -24,6 +24,7 @@ session_start();
       {
          $total = $selqty * 18.75;
       }
+
       else
       {
          echo "There is no price for your widgets";

@@ -8,10 +8,10 @@
 	Select the colour for the  widgets you are ordering
    	<select name="selcolour">
    	  <option>white</option>
-	    <option>red</option>
-	    <option>yellow</option>
-	    <option>green</option>
-	    <option>blue</option>
+	  <option>red</option>
+	  <option>yellow</option>
+	  <option>green</option>
+	  <option>blue</option>
         </select>
         <br/><br/>	
         <input type="submit" value="Buy"/>
